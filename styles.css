@@ -1,0 +1,29 @@
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ff6b6b;
+}
+
+nav ul li a {
+    color: #ffa500;
+}
+
+.carrusel {
+    background-color: #333333;
+}
+
+.flecha {
+    color: #ff6b6b;
+    opacity: 0.8;
+}
+
+.altar {
+    background-color: #292929;
+    padding: 1em;
+    border-radius: 10px;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos para el carrusel */
+        .carrusel {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        
+        .carrusel img {
+            width: 100%;
+            display: none;
+        }
+
+        .carrusel img.active {
+            display: block;
+        }
+
+        .flecha {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2em;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+        }
+
+        .flecha.izquierda {
+            left: 10px;
+        }
+
+        .flecha.derecha {
+            right: 10px;
+        }
+    </style>
+</head>
+<body bgcolor="#">
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#carrusel">Galería</a></li>
+                <li><a href="#significado">Día de los Muertos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="introduccion">
+        <h2>Introducción</h2>
+        <p>Este es un proyecto final sobre l dia de los muertos para demostrar mis habilidades en HTML5, CSS y JavaScript.</p>
+    </section>
+
+    <section id="carrusel">
+        <h2>Galería de Imágenes</h2>
+        <div class="carrusel">
+            <img src="image1.jpeg" alt="Imagen 1" class="active">
+            <img src="image2.jpeg" alt="Imagen 2">
+            <img src="image3.jpeg" alt="Imagen 3">
+            <div class="flecha izquierda" onclick="moverCarrusel(-1)">&#10094;</div>
+            <div class="flecha derecha" onclick="moverCarrusel(1)">&#10095;</div>
+        </div>
+    </section>
+
+    <section id="significado">
+        <h2>¿Qué es el Día de los Muertos?</h2>
+        <p>
+            El <span class="ofrenda">Día de los Muertos</span> Es una celebración que combina elementos de las tradiciones indígenas mesoamericanas con prácticas y creencias católicas. Se trata de una conmemoración alegre, que festeja la continuidad de la vida a través de rituales y ofrendas. En ella, se crean altares coloridos, adornados con fotos, flores, velas y aquellos alimentos que eran apreciados por los difuntos.
+
+            Las fechas coinciden con las fiestas católicas del Día de Todos los Santos y el Día de los Fieles Difuntos. Si bien los días precisos son el 1 y 2 de noviembre, las celebraciones del Día de Muertos pueden durar hasta una semana.
+            
+            La riqueza cultural de esta tradición es tal que la Unesco la nombró  Obra Maestra del Patrimonio Oral e Intangible de la Humanidad en 2008. Es una de las tradiciones más famosas y visitadas de México, y ha inspirado numerosas obras documentales y de ficción
+            
+            
+            
+            
+
+        </p>
+        
+        <div class="altar">
+            <h3>El Altar de Ofrendas</h3>
+            <p>
+                Cada altar debe llevar elementos específicos que tienen un simbolismo especial y que busca lograr esta conexión entre aquellos que ya trascendieron y buscan visitar a sus familias durante la noche del Día de Muertos, entre los que destacan:
+
+                Fotografía del difunto
+                
+                La fotografía del difunto es un recordatorio de la persona a la que se dedica el altar. Colocada en el nivel superior del altar, representa el homenaje y la memoria que se le ofrece al fallecido.
+                
+                Velas y veladoras
+                
+                Las velas representan la luz que guía el camino de las almas para que puedan regresar a la tierra de los vivos. Tradicionalmente, se usan velas blancas, aunque algunas personas optan por colores que representen distintos significados.
+                
+                
+                Flor de cempasúchil
+                
+                La flor de cempasúchil es una de las flores más representativas del Día de Muertos. Su color amarillo y su aroma se utilizan para marcar el camino de los espíritus, guiándolos hacia el altar.
+                
+                dia de muertos flor 2 de noviembre
+                
+                Incienso o copal
+                
+                El copal, una resina aromática, es un elemento que se usa en los altares para purificar el ambiente y proteger a las almas en su regreso. Se cree que ayuda a alejar a los malos espíritus y a limpiar el espacio sagrado.
+                
+                Agua
+                
+                El agua es un elemento fundamental que simboliza la pureza del alma. Se coloca para calmar la sed del espíritu del difunto y para que pueda refrescarse tras su largo viaje.
+                
+                Sal
+                
+                La sal simboliza la purificación y ayuda a evitar la corrupción del alma. Es un elemento de protección que garantiza que el espíritu pueda transitar con paz y purificación.
+                
+                Pan de muerto
+                
+                El pan de muerto es un alimento tradicional en esta celebración y tiene una gran carga simbólica. Su forma circular representa el ciclo de la vida y la muerte, mientras que las figuras de huesitos en su superficie simbolizan los restos de los difuntos.
+                
+                pan de muerto ofrenda altar
+                Calaveritas de azúcar
+                
+                Las calaveritas de azúcar son un recordatorio de la muerte, y en algunas tradiciones, se les escribe el nombre de la persona fallecida. Simbolizan la presencia de los difuntos y el respeto hacia ellos.
+                
+                Papel picado
+                
+                El papel picado es un adorno colorido que simboliza la alegría de recibir a las almas. Los colores más comunes son el morado, que representa el luto, y el naranja, que simboliza la vida.
+                
+                Comida favorita del difunto
+                
+                La comida favorita del difunto es una manera de hacer sentir al ser querido bienvenido. Estos platillos reflejan el amor y cariño de quienes recuerdan al difunto, además de ser una muestra de hospitalidad.
+                
+                Estructura de los niveles del altar para el Día de Muertos
+                Altares de dos niveles: representan la división entre la vida y la muerte.
+                Altares de tres niveles: simbolizan el cielo, la tierra y el inframundo.
+                Altares de siete niveles: son los más complejos y representan los pasos necesarios para que el alma del difunto alcance la paz.
+                altar de muertos.
+                El Día de Muertos es una festividad única en el mundo, que celebra la vida y la muerte con alegría y respeto. Cada elemento del altar de muertos tiene un profundo simbolismo, mostrando la riqueza de la cosmovisión mexicana.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>jorge luis martinez gomez</p>
+    </footer>
+
+    <script>
+        // Lógica del carrusel
+        let indiceImagen = 0;
+        mostrarImagen(indiceImagen);
+
+        function moverCarrusel(direccion) {
+            indiceImagen += direccion;
+            mostrarImagen(indiceImagen);
+        }
+
+        function mostrarImagen(n) {
+            const imagenes = document.querySelectorAll(".carrusel img");
+            if (n >= imagenes.length) indiceImagen = 0;
+            if (n < 0) indiceImagen = imagenes.length - 1;
+            
+            imagenes.forEach((img, index) => {
+                img.classList.toggle("active", index === indiceImagen);
+            });
+        }
+    </script>
+</body>
+</html>
